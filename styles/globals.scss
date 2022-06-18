@@ -156,12 +156,18 @@ section.banner{
       line-height: 1;
       text-transform: uppercase;
       font-weight: 700;
+      @include md(sm){
+        font-size: $fz-m;
+      }
     }
     p{ 
       font-size: $fz-m;
       margin: 0;
       padding: 0;
       line-height: 1;
+      @include md(sm){
+        font-size: $fz-s;
+      }
     }
   }
 }
