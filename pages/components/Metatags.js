@@ -13,14 +13,21 @@ function Metatags() {
       />
       <meta
         property="og:url"
-        content="https://vercel.com/equistene/borrador-nueva-constitucion"
+        content="https://borrador-constitucion.vercel.app/"
       />
       <meta
         property="og:description"
         content="Versión Web del PDF de la Guía Práctica Borrador - Nueva Constitución - Junio 2022"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="/og.jpg" />
+      <meta
+        property="og:image"
+        content="https://borrador-constitucion.vercel.app/og.jpg"
+      />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@equistene" />
+      <meta name="twitter:creator" content="@equistene" />
     </>
   );
 }
