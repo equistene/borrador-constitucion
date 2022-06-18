@@ -1,17 +1,20 @@
 import Head from "next/head";
+import Metatags from "../components/Metatags";
 import Hero from "./../components/Hero";
-import Nav from "../components/Nav";
+import Nav from "../components/Nav"; 
 import Footer from "./../components/Footer";
 import Banner from "./../components/Banner";
 import styles from "../../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Guía Práctica Borrador - Nueva Constitución - Junio 2022</title>
         <meta name="description" content="Guía Práctica Borrador" />
         <link rel="icon" href="/favicon.ico" />
+        <Metatags />
+
       </Head>
 
       <Hero />
@@ -51,6 +54,6 @@ export default function Home() {
       <Banner />
 
       <Footer />
-    </>
+    </div>
   );
 }

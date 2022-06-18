@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Metatags from "./components/Metatags";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
@@ -14,6 +15,7 @@ export default function Home() {
         <title>Guía Práctica Borrador - Nueva Constitución - Junio 2022</title>
         <meta name="description" content="Guía Práctica Borrador" />
         <link rel="icon" href="/favicon.ico" />
+        <Metatags />
       </Head>
 
       <Hero />

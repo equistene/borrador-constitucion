@@ -10,10 +10,10 @@ function Banner() {
 
           <div className="share">
             <p>Compartir en :</p>
-            <a href="#">Whatsapp</a>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Linkedin</a>
+            <a href="https://api.whatsapp.com/send?text=Lee la Guía Práctica Borrador Nueva Constitución (Junio 2022) - %0ahttps://borrador-constitucion.vercel.app/" target="_blank" rel="noreferrer">Whatsapp</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://borrador-constitucion.vercel.app/" target="_blank" rel="noreferrer">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url=https://borrador-constitucion.vercel.app/&text=Lee%20la%20'Gu%C3%ADa%20pr%C3%A1ctica%20Borrador%20Nueva%20Constituci%C3%B3n%20(Junio%202022)" target="_blank" rel="noreferrer">Twitter</a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://borrador-constitucion.vercel.app/" target="_blank" rel="noreferrer">Linkedin</a>
           </div>
         </div>
       </section>
