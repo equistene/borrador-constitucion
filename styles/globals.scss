@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+html,
+body {  
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a, a:hover{
+  transition: 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "_mediaqueries";
+
+$fz-xl : 6.854rem;
+$fz-l : 4.236rem;
+$fz-m : 2.618rem;
+$fz-s : 1.618rem;
+
+$morado : #2F0446;
+$amarillo : #F7D149;
+
+
+
+.container{
+  display: table;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+header{
+  background-color: $morado;
+  color: #FFF;
+  .container{
+    text-align: center;
+    padding: 3rem 1rem;
+    @include md(sm){
+      padding: 2rem 1rem;
+    }
+    h1{
+      margin: 0;padding: 0;
+      font-size: $fz-l;
+      line-height: 1;
+      text-transform: uppercase;
+      @include md(sm){
+        font-size: 2rem;
+      }
+    }
+    h3{
+      margin: 0;padding: 0;
+      font-size: $fz-m;
+      font-weight: normal;
+      @include md(sm){
+        font-size: 1.4rem;
+      }
+    }
+    p{
+      margin: 0;padding: 0;
+      color: $amarillo;
+    }
+  }
+}
+
+section#intro{  
+  .container{
+    padding: 4rem 1rem;
+    @include md(sm){
+      padding: 2rem 1rem;
+    }
+    h2{
+      font-size: $fz-m;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;      
+      text-transform: uppercase;
+      @include md(sm){
+        font-size: 2rem;
+        line-height: 1;
+      }
+    }
+    p{
+      font-size: $fz-s;
+      @include md(sm){
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+nav{
+  ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1rem;
+    @include md(sm){
+      flex-direction: column;
+    }
+    a{
+      display: block;
+      text-align: center;
+      padding: 1rem 2rem;
+      color: #FFF;
+      background-color: lighten($morado, 20%);
+      border-radius: 2rem;
+      outline: none;
+      font-weight: 600;
+      font-size: $fz-s;
+      &:hover{
+        background-color: $morado;
+      }
+      @include md(sm){
+        font-size: 1.2rem;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+section#article-1{
+  .container{
+    h2{
+      
+    }
+    p{
+      
+    }
+  }
+}
+
+
+section.banner{
+  background-color: $amarillo;
+  color: $morado;
+  .container{
+    padding: 2rem 1rem;
+    text-align: center;    
+    h3{
+      font-size: $fz-l;
+      margin: 0;padding: 0;
+      line-height: 1;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    p{ 
+      font-size: $fz-m;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+  }
+}
+
+footer{
+  background-color: $morado;
+  color: #FFF;
+  text-align: center;
+  .container{
+    padding: 2rem 1rem;
+    p{
+      margin: 0;
+      padding: 0;
+    }  
+  }  
+}
