@@ -30,6 +30,7 @@ $fz-s : 1.618rem;
 
 $morado : #2F0446;
 $amarillo : #F7D149;
+$azul : #181A2D;
 
 
 
@@ -76,9 +77,9 @@ header{
 
 section#intro{  
   .container{
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 0;
     @include md(sm){
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 0;
     }
     h2{
       font-size: $fz-m;
@@ -101,6 +102,7 @@ section#intro{
 }
 
 nav{
+  margin: 0 0 5rem;
   ul{
     display: flex;
     justify-content: center;
@@ -133,12 +135,19 @@ nav{
 }
 
 section#article-1{
+  background-color: $azul;
+  color: #FFF;
   .container{
+    padding: 5rem 1rem;
     h2{
-      
+      font-size: $fz-m;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0;padding: 0;
+      line-height: 1;
     }
     p{
-      
+      font-size: $fz-s;
     }
   }
 }
