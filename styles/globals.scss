@@ -161,6 +161,34 @@ section#article-1{
   }
 }
 
+section.pilar{
+  .container{
+    padding: 3rem 1rem;
+    position: relative;
+    h1{
+      font-size: $fz-m;
+      text-transform: uppercase;
+      font-weight: 700;
+      line-height: 1;
+    }
+    p{
+      font-size: $fz-s;
+      @include md(sm){
+        font-size: 1rem;
+      }
+    }
+    &:after{
+      content: "";
+      width: 10%;
+      height: 6px;
+      background-color: $amarillo;
+      margin: 4rem auto 0;
+      display: table;
+    }
+  }  
+  
+}
+
 
 section.banner{
   background-color: $amarillo;
