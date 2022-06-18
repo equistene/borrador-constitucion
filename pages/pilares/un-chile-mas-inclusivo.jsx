@@ -40,7 +40,7 @@ export default function Home() {
 
           <p>Chile es un Estado plurinacional e intercultural. Se reconoce la coexistencia de diversas naciones y pueblos en el marco de la unidad e indivisibilidad del Estado. Todas las identidades y culturas son respetadas, regidas bajo la misma Constitución y los poderes del Estado establecidos en ella.</p>
 
-          <p>La propuesta de nueva Constitución reconoce como pueblos y naciones indígenas a los Mapuche, Aymara, Rapa Nui,Lickanantay, Quechua, Colla, Diaguita, Chango, Kawashkar, Yaghan, Selk'nam y otros que puedan ser reconocidos en la forma que establezca la ley.</p>
+          <p>La propuesta de nueva Constitución reconoce como pueblos y naciones indígenas a los Mapuche, Aymara, Rapa Nui,Lickanantay, Quechua, Colla, Diaguita, Chango, Kawashkar, Yaghan, Selk`nam y otros que puedan ser reconocidos en la forma que establezca la ley.</p>
 
           <p>Emblemas nacionales. Son símbolos que nos identifican como país. Son emblemas nacionales de Chile la bandera, el escudo y el himno nacional. Además, el Estado reconocerá los símbolos y emblemas de los distintos pueblos indígenas.</p>
         </div>
