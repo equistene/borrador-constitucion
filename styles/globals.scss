@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: 'Quicksand', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;  
+  scroll-behavior: smooth;
 }
 
 a {
@@ -233,14 +234,18 @@ section.banner{
 
     .share{
       margin: 3rem auto 0;
-      display: flex;
+      padding: 0.5rem 2rem;
+      display: inline-flex;
       justify-content: center;
       gap: 1rem;
       align-items: center;
       font-size: 1rem;
+      background-color: rgba($morado, 0.05);
+      border-radius: 2rem;
       @include md(sm){
         flex-direction: column;
         gap: .5rem;
+        padding: 2rem;
       }
       p{
         font-size: 1rem;
