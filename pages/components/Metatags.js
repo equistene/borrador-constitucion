@@ -13,7 +13,7 @@ function Metatags() {
       />
       <meta
         property="og:url"
-        content="https://borrador-constitucion.vercel.app/"
+        content="https://www.laconstitucionpractica.cl/"
       />
       <meta
         property="og:description"
@@ -22,7 +22,7 @@ function Metatags() {
       <meta property="og:type" content="website" />
       <meta
         property="og:image"
-        content="https://borrador-constitucion.vercel.app/og.jpg"
+        content="https://www.laconstitucionpractica.cl/og.jpg"
       />
 
       <meta name="twitter:card" content="summary" />
