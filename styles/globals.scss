@@ -92,9 +92,8 @@ section#intro{
       font-weight: 900;
       margin: 0;
       padding: 0;      
-      text-transform: uppercase;
-      letter-spacing: -0.2rem;
-      @include md(sm){
+      text-transform: uppercase;      
+      @include md(sm){        
         font-size: 2rem;
         line-height: 1;
       }
