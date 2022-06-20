@@ -29,23 +29,23 @@ export default function Home() {
           
           <p>Destacamos los artículos sobre sistema político, la elección de representantes de la ciudadanía y la distribución territorial del poder. En especial, los mecanismos de democracia directa y la participación en la toma de decisiones, una de las diferencias más profundas con la Constitución vigente.</p>
 
-          <p>Democracia. En Chile, la democracia es inclusiva y paritaria. Se ejerce en forma directa, participativa, comunitaria y representativa.</p>
+          <p><strong>Democracia.</strong> En Chile, la democracia es inclusiva y paritaria. Se ejerce en forma directa, participativa, comunitaria y representativa.</p>
 
-          <p>Soberanía. La soberanía reside en el pueblo de Chile, que a su vez está conformado por diversas naciones. Se ejercerá democráticamente, de manera directa y mediante representantes.</p>
+          <p><strong>Soberanía.</strong> La soberanía reside en el pueblo de Chile, que a su vez está conformado por diversas naciones. Se ejercerá democráticamente, de manera directa y mediante representantes.</p>
           
-          <p>Ciudadanía. Todas las personas que tengan la nacionalidad chilena serán ciudadanas y ciudadanos de Chile. Asimismo, lo serán aquellas personas extranjeras avecindadas en el país por, al menos, cinco años.</p>
+          <p><strong>Ciudadanía.</strong> Todas las personas que tengan la nacionalidad chilena serán ciudadanas y ciudadanos de Chile. Asimismo, lo serán aquellas personas extranjeras avecindadas en el país por, al menos, cinco años.</p>
           
           <p>El sufragio será personal, igualitario, secreto y obligatorio para todas las personas mayores de 18 años. Además, será voluntario para chilenas y chilenos que vivan en el extranjero, y para jóvenes de 16 y 17 años.</p>
 
-          <p>Democracia Participativa. La ciudadanía tiene el derecho a participar de manera incidente o vinculante —según corresponda— en los asuntos de interés público y en la toma de decisiones que le afecten. El Estado deberá dar adecuada publicidad a los mecanismos de democracia, y asegurar la participación y deliberación ciudadana en la gestión de asuntos públicos.</p>
+          <p><strong>Democracia Participativa.</strong> La ciudadanía tiene el derecho a participar de manera incidente o vinculante —según corresponda— en los asuntos de interés público y en la toma de decisiones que le afecten. El Estado deberá dar adecuada publicidad a los mecanismos de democracia, y asegurar la participación y deliberación ciudadana en la gestión de asuntos públicos.</p>
           
-          <p>Iniciativa popular de ley. Es una de las innovaciones en materia de participación directa. Consiste en que la ciudadanía podrá organizarse para proponer al Congreso un proyecto de ley.</p>
+          <p><strong>Iniciativa popular de ley.</strong> Es una de las innovaciones en materia de participación directa. Consiste en que la ciudadanía podrá organizarse para proponer al Congreso un proyecto de ley.</p>
 
           <p>¿Cómo? Un grupo de ciudadanos equivalente al 3% de los habilitados para votar, podrá presentar una iniciativa popular de ley para su tramitación legislativa.</p>
 
           <p>Las propuestas no podrán tener relación con tributos, presupuesto del Estado, ni ser contrarias a los derechos fundamentales.</p>
 
-          <p> Participación en las entidades territoriales. Las entidades territoriales —como los gobiernos regionales y municipios— también deberán garantizar que sus habitantes puedan participar de las decisiones públicas. En el caso de pueblos y naciones indígenas, deberán ser consultados y otorgar el consentimiento respecto de las decisiones que afecten sus derechos territoriales.</p>
+          <p><strong>Participación en las entidades territoriales.</strong> Las entidades territoriales —como los gobiernos regionales y municipios— también deberán garantizar que sus habitantes puedan participar de las decisiones públicas. En el caso de pueblos y naciones indígenas, deberán ser consultados y otorgar el consentimiento respecto de las decisiones que afecten sus derechos territoriales.</p>
         </div>
       </section>
 
