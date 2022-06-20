@@ -26,7 +26,7 @@ export default function Home() {
 
           <p>Destacan el derecho a una vida libre de violencia de género, perspectiva de género en la justicia, derechos sexuales y reproductivos, derecho a la identidad, principios de paridad y representación política paritaria e inclusiva.</p>
 
-          <p>Democracia paritaria. Todos los órganos del Estado, empresas públicas y semipúblicas, así como los órganos autónomos, deberán tener una composición paritaria que asegure que al menos el 50% de sus integrantes sean mujeres. Derecho a una vida libre de violencia de género. El Estado tendrá la obligación de garantizar y promover el derecho delas mujeres, niñas, diversidades y disidencias sexuales a una vida libre de violencia. Para esto deberá realizar las acciones necesarias para erradicar todo tipo de violencia de género y brindar atención, protección y reparación integral a las víctimas.</p>
+          <p><strong>Democracia paritaria.</strong> Todos los órganos del Estado, empresas públicas y semipúblicas, así como los órganos autónomos, deberán tener una composición paritaria que asegure que al menos el 50% de sus integrantes sean mujeres. Derecho a una vida libre de violencia de género. El Estado tendrá la obligación de garantizar y promover el derecho delas mujeres, niñas, diversidades y disidencias sexuales a una vida libre de violencia. Para esto deberá realizar las acciones necesarias para erradicar todo tipo de violencia de género y brindar atención, protección y reparación integral a las víctimas.</p>
 
           <p>Todas las personas tendrán derecho a un espacio digital —como las redes sociales— libre de violencia. Se deberá dar especial protección a mujeres, niñas, niños, jóvenes y disidencias sexuales.</p>
 
