@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Guía Práctica Borrador - Nueva Constitución - Junio 2022</title>
+        <title>UN CHILE CON ECONOMÍA RESPONSABLE | Guía Práctica Borrador - Nueva Constitución</title>
         <meta name="description" content="Guía Práctica Borrador" />
         <link rel="icon" href="/favicon.ico" />        
         <Metatags />
