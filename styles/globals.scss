@@ -88,11 +88,12 @@ section#intro{
     }
     h2{
       font-family: $roboto;
-      font-size: $fz-m;
+      font-size: $fz-l;
       font-weight: 900;
       margin: 0;
       padding: 0;      
       text-transform: uppercase;
+      letter-spacing: -0.2rem;
       @include md(sm){
         font-size: 2rem;
         line-height: 1;
@@ -143,13 +144,15 @@ nav{
 section#article-1{
   background-color: $azul;
   color: #FFF;
+  text-align: center;
   .container{
     padding: 5rem 1rem;
     @include md(sm){
       padding: 3rem 1rem;
     }
     h2{
-      font-size: $fz-m;
+      text-transform: uppercase;
+      font-size: $fz-l;
       font-weight: 700;
       text-transform: uppercase;
       margin: 0;padding: 0;
@@ -160,6 +163,7 @@ section#article-1{
     }
     p{
       font-size: $fz-s;
+      line-height: 1.5;
       @include md(sm){
         font-size: 1rem;
       }
@@ -180,10 +184,15 @@ section.pilar{
       text-transform: uppercase;
       font-weight: 900;
       line-height: 1;
-      margin: 0 0 1rem;
-      padding: 0;
+      margin: 0 0 1rem;      
+      padding: .5rem 0;
+      color: $morado;
+      position: sticky;
+      top: 0;      
+      background-color: #FFF;
+      border-bottom: 1px solid $morado;
       @include md(sm){
-        font-size: 2rem;
+        font-size: 1.6rem;
       }
     }
     p{
@@ -209,15 +218,19 @@ section.banner{
   background-color: $amarillo;
   color: $morado;
   .container{
-    padding: 2rem 1rem;
-    text-align: center;    
+    padding: 4rem 1rem;
+    text-align: center;
+    @include md(sm){
+      padding: 2rem 1rem;
+    }
     h3{
       font-family: $roboto;
       font-size: $fz-l;
       margin: 0;padding: 0;
       line-height: 1;
+      letter-spacing: -0.2rem;
       text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 900;
       @include md(sm){
         font-size: $fz-m;
       }
@@ -270,18 +283,18 @@ footer{
   text-align: center;
   .container{
     padding: 2rem 1rem;
-    p{
+    p{      
       margin: 0 0 1rem;
       padding: 0;
+      letter-spacing: .05rem;
       line-height: 1.5;
       &:last-of-type{
         margin: 0;
       }
-      a{
-        text-decoration: underline;
+      a{        
+        color: $amarillo;
         &:hover{
-          color: $amarillo;
-          text-decoration: none;
+          text-decoration: underline;
         }
       }
     }  
