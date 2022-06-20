@@ -4,6 +4,8 @@ import Script from "next/script";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Component {...pageProps} />
+
       <Script
         src="https://www.google-analytics.com/analytics.js?id=G-8EJ684QQ9B"
         strategy="afterInteractive"
@@ -17,8 +19,6 @@ function MyApp({ Component, pageProps }) {
           gtag('config', 'G-8EJ684QQ9B');
         `}
       </Script>
-
-      <Component {...pageProps} />
     </>
   );
 }
