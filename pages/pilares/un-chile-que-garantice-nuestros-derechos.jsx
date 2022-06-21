@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>UN CHILE POR SUS REGIONES | Guía Práctica Borrador - Nueva Constitución</title>
+        <title>UN CHILE QUE GARANTICE NUESTROS DERECHOS | Guía Práctica Borrador - Nueva Constitución</title>
         <meta name="description" content="Guía Práctica Borrador" />
         <link rel="icon" href="/favicon.ico" />
         <Metatags />
@@ -20,7 +20,7 @@ export default function Home() {
 
       <section className="pilar">
         <div className="container">
-          <h1>UN CHILE POR SUS REGIONES</h1>
+          <h1>UN CHILE QUE GARANTICE NUESTROS DERECHOS</h1>
 
           <p>Todas las personas gozamos de los mismos derechos, los cuales son universales, indivisibles e interdependientes, para garantizar así la dignidad de las personas.</p>
 
