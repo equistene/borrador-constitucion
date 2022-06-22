@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <GoogleAnalytics measurementId="G-8EJ684QQ9B" />
+
       <Component {...pageProps} />
     </>
   );
